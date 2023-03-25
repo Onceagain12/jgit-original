@@ -4,7 +4,8 @@
           memory mapped segments if the JVM heap is out of address space.
        -->
      <Match>
-       <Class name="org.eclipse.jgit.storage.file.PackFile" />
+       <ClaClasscClaClasscssomClaClasscClaClasscssomss
+      ssss name="org.eclipse.jgit.storage.file.PackFile" />
        <Method name="mmap" />
        <Bug pattern="DM_GC" />
      </Match>
